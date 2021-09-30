@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ricky's Rides</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="header">
+		<img alt="" class="logo" src="images/ricky_s_rides_white.jpeg">
+		<div class="header-right">
+			<h1>Ricky's Rides</h1>
+		</div>
+	</div>
+	<div class="main_content">
+		<label>Rent Date:</label><br>
+		<input id="pickUpDate" required="" title="Please enter a date " type="date"><br>
+		<label>Number of Days:</label><br>
+		<input id="numberDays" max="21" min="1" type="number">
+		<div class="row">
+			<div class="column">
+				<div class="carCard" data-name="Nissan Tiida" data-price="18">
+					<div class="textOverlay">
+						<h2>Nissan Tiida - $18/day</h2>
+					</div><img alt="" src="images/nissan_tiida.jpg">
+					<h3>Nissan Tiida - $18/day</h3>
+					<p>Seats: 5 x Seatbelts Body Style: 4 Door Sedan or 5 Door Hatch Luggage: 1 Large, 2 Small Engine Size: 1.3 - 2.0 Litre Fuel Usage: +/- 7 L / 100km Fuel Type: Petrol Transmission: Automatic</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="carCard" data-name="Sazuki Swift" data-price="18">
+					<div class="textOverlay">
+						<h2>Sazuki Swift - $18/day</h2>
+					</div><img alt="" src="images/sazuki_swift.jpg">
+					<h3>Sazuki Swift - $18/day</h3>
+					<p>Seats: 5 x Seatbelts Body Style: 5 Door Hatch Luggage: 1 Large, 1 Small Engine Size: 1.2 - 1.4 Litre Fuel Usage: +/- 6 L / 100km Fuel Type: Petrol Transmission: Automatic</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="carCard" data-name="Mazda 3" data-price="23">
+					<div class="textOverlay">
+						<h2>Mazda 3 - $23/day</h2>
+					</div><img alt="" src="images/mazda_3.jpg">
+					<h3>Mazda 3 - $23/day</h3>
+					<p>Seats: 5 x Seatbelts Body Style: 5-Door Hatch or Wagon Luggage: 2 Large, 1 Small Engine Size: 1.6 - 2.0 Litre Fuel Usage: +/- 6 L / 100km Fuel Type: Petrol Transmission: Automatic</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="carCard" data-name="Holden Trax" data-price="41">
+					<div class="textOverlay">
+						<h2>Holden Trax - $41/day</h2>
+					</div><img alt="" src="images/holden_trax.jpg">
+					<h3>Holden Trax - $41/day</h3>
+					<p>Seats: 5 x Seatbelts Body Style: Compact SUV Luggage: 1 Large, 2 Small Engine Size: 1.4 - 1.8 Litre Fuel Usage: +/- 6.9 L / 100km Fuel Type: Petrol Transmission: Automatic</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="carCard" data-name="Holden Captiva" data-price="52">
+					<div class="textOverlay">
+						<h2>Holden Captiva - $52/day</h2>
+					</div><img alt="" src="images/holden_captiva.jpg">
+					<h3>Holden Captiva - $52/day</h3>
+					<p>Seats: 5 x Seatbelts Body Style: 4 Door SUV Luggage: 3 Large, 1 Small Engine Size: 3 Litre Fuel Usage: +/- 9.2 L / 100km Fuel Type: Petrol Transmission: Automatic</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="carCard" data-name="Toyota Estima" data-price="62">
+					<div class="textOverlay">
+						<h2>Toyato Estima - $62/day</h2>
+					</div><img alt="" src="images/toyota_estima.jpg">
+					<h3>Toyota Estima - $62/day</h3>
+					<p>Seats: 8 x Seatbelts Body Style: People Mover Luggage: 3 Large, 2 Small Engine Size: 2.4 Litre Fuel Usage: +/- 9.51 L / 100km Fuel Type: Petrol Unleaded 91 Transmission: Automatic</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="carCard" data-name="Nissan Caravan" data-price="89">
+					<div class="textOverlay">
+						<h2>Nissan Caravan - $89/day</h2>
+					</div><img alt="" src="images/nissan_caravan_1.jpg">
+					<h3>Nissan Caravan - $89/day</h3>
+					<p>Seats:10 x Seatbelts Body Style:Minivan Luggage:2 Large, 4 Small Engine Size:2.0 Litre Fuel Usage:+/- 10 L / 100km Fuel Type: Petrol Transmission: Automatic</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h2>Extra Items</h2><label><input class="addCheck" data-price="60" id="SnowChains" type="checkbox">Snow Chains $60</label> <label><input class="addCheck" data-price="90" id="RoofRacks" type="checkbox">Roof Racks $90</label> <label><input class="addCheck" data-price="120" id="BikeRacks" type="checkbox">Bike Racks (fits 3 bikes) $120</label> <label><input class="addCheck" data-price="90" id="GPS" type="checkbox">GPS $35</label> <label><input class="addCheck" data-price="50" id="ChildBooster" type="checkbox">Child Booster Seat $50</label>
+		</div>
+		<div class="container">
+			<h2>Pickup Location</h2><label><input id="radio1a" name="airport" type="radio">Dunedin Airport</label> <label><input id="radio1b" name="depot" type="radio">Ricky's Rides Depot</label>
+		</div>
+		<div class="container">
+			<h2 id="carInformation">Hire Information:</h2>
+			<table>
+				<tr>
+					<td>Hired Car:</td>
+					<td>
+						<div id="carOutput"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Price per Day:</td>
+					<td>
+						<div id="priceOutput"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Pick-up Date:</td>
+					<td>
+						<div id="dateOutput"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Number of Days:</td>
+					<td>
+						<div id="daysOutput"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Extras:</td>
+					<td>
+						<div id="extrasOutput"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Location:</td>
+					<td>
+						<div id="locationOutput"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Total Price:</td>
+					<td>
+						<div id="totalPriceOutput"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="container">
+			<h2>Enter your details:</h2><label>First Name:</label> <input autocomplete="on" id="firstNameInput" placeholder="John" required="" title="Enter your first name" type="text"><br>
+			<label>Last Name:</label> <input autocomplete="on" id="lastNameInput" placeholder="Doe" required="" title="Enter your last name" type="text"><br>
+			<label>NZ Drivers License Number:</label> <input autocomplete="on" id="licenseNumberInput" placeholder="AB123456" required="" title="Enter your NZ drivers license number" type="text"><br>
+			<label>Age:</label> <input autocomplete="on" id="ageInput" placeholder="25-80" required="" title="Enter your age" type="number"><br>
+			<label>Email Address:</label> <input autocomplete="on" id="emailInput" placeholder="johndoe@gmail.com" required="" title="Enter your email address" type="email"><br>
+			<button id="confirmButton" onclick="checkInputs()">Confirm Hire</button>
+		</div>
+	</div>
+	<script src="javascript.js">
+	</script>
+</body>
+</html>
